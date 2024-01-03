@@ -1,6 +1,6 @@
 # smart-ls
 
-Smart-ls is like Tinder's Smart Photos feature but for your directory!
+Smart-ls is like Tinder's Smart Photos feature but for your directory! (This is also NOT an endorsement of Tinder, meet people IRL instead.)
 
 Instagram slideshows don't reveal which specific photo garnered likes. Conversely, Tinder's Smart Photos feature cleverly rotates your first photo shown to others, tracks responses, and prioritizes your most popular photos. This sparked an idea: why not apply a similar approach to organizing directory contents?
 

@@ -4,7 +4,10 @@ Smart-ls is like Tinder's Smart Photos feature but for your directory! (This is 
 
 Instagram slideshows don't reveal which specific photo garnered likes. Conversely, Tinder's Smart Photos feature cleverly rotates your first photo shown to others, tracks responses, and prioritizes your most popular photos. This sparked an idea: why not apply a similar approach to organizing directory contents?
 
-My program `smart-ls` smartly lists and sorts directory contents by their last access time, helping you quickly find the most recently used files and directories. This can be adapted to a different metric like frequency of access.
+My program `smart-ls` smartly lists and sorts directory contents by their last access time, helping you quickly find the most recently used files and directories. This can be adapted to a different metric like access frequency.
+
+## Remark
+The `ls -lt` command offers similar functionality, but this repository will remain public because access frequency was the original inspiring key metric not access time, akin to matches on Tinder's Smart Photos and likes on Instagram slideshows.
 
 ## Installation
 
@@ -18,5 +21,5 @@ $ cd smart-ls
 ```
 ## Usage
 
-Run `python smart-ls` in your terminal to start the app. Smart-ls will display the contents of your current directory, sorted by the last access time.
+Run `python smart-ls.py` in your terminal to start the app. Smart-ls will display the contents of your current directory, sorted by the last access time.
 
